@@ -112,11 +112,6 @@ class stringa{ //cioè immagina essere
         }
 };
 
-std::vector<char> wa(char* ptr, int i){ //se lei può vedere questo vuol dire che mi sono dimenticato di toglierla
-    std::vector<char> vect;
-    std::for_each(ptr,ptr+i,[&](char& c){vect.push_back(c);});
-    return vect;
-}
 
 
 int main() { //tempo di testare
